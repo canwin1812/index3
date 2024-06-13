@@ -4,8 +4,8 @@
 }
 
 .header {
-    height: 1328px;
-    width: 100%;
+    min-width: 1328px;
+    min-height : 660px;
     background:#14b789;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,14 @@
     
 
 }
-
+.narbar4 {
+    width: 244.11px;
+    height: 47px;
+    display: flex !important;
+    margin-left: auto !important;
+    align-items: center !important;
+    box-sizing: border-box;
+}
 
 
 
@@ -94,6 +101,11 @@ p {
 .narbar2{
     min-width: 1019.97px;
     max-height: 48px;
+    display: flex !important;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+    box-sizing: border-box;
 }
 .narbar3{
     width: 443.42px;
@@ -106,6 +118,45 @@ p {
     list-style: none;
     margin-top: 0;
 }
+.narbar5{
+    background: var(--white-color);
+    border-radius: var(--border-radius-large);
+    color: var(--dark-color);
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    margin-right: 1rem !important;
+    box-sizing: border-box;
+    font-style: italic;
+
+}
+.narbar6{
+    min-width: 181.11px;
+    max-height: 47px;
+    color: #ffffff;
+    padding: 8px 22px;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hero{
+    min-width: 1328px;
+    min-height: 660px;
+    background: var(--secondary-color);
+    overflow: hidden;
+    padding-top: 330px;
+    padding-bottom: 330px;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    box-sizing: border-box;
+    position: absolute;
+}
+
 .section99{
     width: 34.77px;
     height: 48px;
